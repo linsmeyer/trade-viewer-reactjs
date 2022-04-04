@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "./build-prod/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib":["esnext", "dom"],
+        "baseUrl": ".",
+        "types": ["node"],
+        "downlevelIteration": true,
+        "paths": {
+            "TradeViewer/*":["src/*"]
+        },
+        "typeRoots": [
+            "../node_modules/Types",
+            "../Types"
+        ]
+    },
+    "includes": ["./src/**/*"]
+}

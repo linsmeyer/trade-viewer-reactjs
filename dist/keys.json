@@ -1,0 +1,18 @@
+[
+  {
+    "city": "sao_paulo",
+    "mode": "weather"
+  },
+  {
+    "city": "sao_paulo",
+    "mode": "currency"
+  },
+  {
+    "city": "campinas",
+    "mode": "weather"
+  },
+  {
+    "city": "campinas",
+    "mode": "currency"
+  }
+]
